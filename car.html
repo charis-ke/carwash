@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="asset/css/style.css">
+    <!-- <link rel="stylesheet" href="asset/js/style.js"> -->
+    <script src="asset/js/style.js"></script>
+    <script src="https://kit.fontawesome.com/f943ecf26e.js"
+     crossorigin="anonymous"></script>
+</head>
+<body style="background-color: bisque; margin: 20px;;">
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <!-- <li class="nav-item dropdown"> -->
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+       data-bs-toggle="dropdown" aria-expanded="false"> Services
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <li><a class="dropdown-item" href="car.html">Car cleaning</a></li>
+        <li><a class="dropdown-item" href="carpet.html">Carpet cleaning</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="couch.html">Couch cleaning</a></li>
+      </ul>
+    <!-- </li> -->
+    <a href="#">Contact</a>
+  </div>
+   <div id="main">
+    <button class="openbtn" onclick="openNav()">&#9776;</button>
+  </div>
+
+    <!-- JQUERY -->
+    <script src="asset/js/jquery-3.6.0.min.js"></script>
+    <!-- popper js -->
+    <script src="asset/js/popper.min.js"></script>
+    <!-- Bootstrap.min.js -->
+    <script src="asset/js/bootstrap.min.js"></script>
+</body>
+</html>
